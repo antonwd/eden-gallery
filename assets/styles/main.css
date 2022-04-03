@@ -339,6 +339,7 @@ section h2 {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
+  cursor: pointer;
 }
 
 .artworks-container .artwork-box .wish-it {
@@ -393,6 +394,10 @@ section h2 {
   width: 15%;
   padding-top: 5px;
   text-align: right;
+}
+
+.artworks-container .artwork-box .artwork-details .share-it img {
+  cursor: pointer;
 }
 
 .artworks-container .artwork-box .artwork-details .share-it .sharing-box {
